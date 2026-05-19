@@ -5,10 +5,10 @@ from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 
 # Load trained model
-model = load_model("next_word_lstm.h5", compile=False)
+model = load_model("lstm_rnn/next_word_lstm.h5", compile=False)
 
 # Load tokenizer
-with open("tokenizer.pickle", "rb") as handle:
+with open("lstm_rnn/tokenizer.pickle", "rb") as handle:
     tokenizer = pickle.load(handle)
 
 
