@@ -1,0 +1,7 @@
+LSTM RNN/venv/
+LSTM RNN/venv310/
+venv/
+venv310/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
